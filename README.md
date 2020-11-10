@@ -3,7 +3,7 @@
 |:---|:---|:---|:---|
 
 <h1 align="center">
-  MyLibViewPager - Easy RadioButton Dynamic
+  MyLibViewPager - Easy ViewPager
 </h1>
 
 <div align="center">
