@@ -10,8 +10,6 @@ import com.gzeinnumer.mylibviewpager.adapter.ViewPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
-//    public static TabLayout dotsTabStatic;
-
     TabLayout tabLayout;
     SimpleViewPager simpleViewPager;
     TabLayout dotsTab;
@@ -21,8 +19,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-//        dotsTabStatic = dotsTab;
 
         tabLayout = findViewById(R.id.tab_layout);
         simpleViewPager = findViewById(R.id.dc);
