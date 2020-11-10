@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 //                .enableSwipe(false)
                 .build();
 
-        dotsTab.getTabAt( 1).select();
+//        dotsTab.getTabAt( 1).select();
 
     }
 }
