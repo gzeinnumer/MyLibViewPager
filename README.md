@@ -66,6 +66,7 @@ dependencies {
 #
 - **MainActivity.java**.
 Type Data
+
 **Type 1** just Fragment. if you use this, `tabs` will be `gone`.
 ```java
 viewPagerAdapter.addFragment(FirstFragment.instance());
@@ -98,9 +99,9 @@ viewPagerAdapter.addFragment(FirstFragment.instance(),"First", R.drawable.defaul
 viewPagerAdapter.addFragment(FirstFragment.instance(),"Second", R.drawable.default_dot);
 
 simpleViewPager.setAdapter(viewPagerAdapter)
-        .setTabLayout(tabLayout)
-        //.enableSwipe(false) // true/false -> use this if you want to disable swipe left and right to change page
-        .build();
+    .setTabLayout(tabLayout)
+    //.enableSwipe(false) // true/false -> use this if you want to disable swipe left and right to change page
+    .build();
 ```
 #
 
@@ -188,10 +189,16 @@ viewPagerAdapter.addFragment(FirstFragment.instance());
 viewPagerAdapter.addFragment(FirstFragment.instance());
 
 simpleViewPager.setAdapter(viewPagerAdapter)
-        .setDotsTab(dotsTab, false) // use true if you want to make dots clickable
-        //.enableSwipe(false) // true/false -> use this if you want to disable swipe left and right to change page
-        .build();
+    .setDotsTab(dotsTab, false) // use true if you want to make dots clickable
+    //.enableSwipe(false) // true/false -> use this if you want to disable swipe left and right to change page
+    .build();
 ```
+
+Move to Spesific page
+```java
+dotsTab.getTabAt(0).select(); // index page start from 0...FragmentLength - 1
+```
+
 #
 
 **Preview** :
