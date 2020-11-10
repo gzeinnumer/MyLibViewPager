@@ -1,7 +1,3 @@
-<h1 align="center">
-<img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example1.jpg" width="300"/> <img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example3.jpg" width="300"/>
-
-</h1>
 
 | <img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example1.jpg"/>| <img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example2.jpg"/> |<img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example3.jpg"/> |<img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example4.jpg"/> |
 |:---|:---|:---|:---|
@@ -110,9 +106,9 @@ simpleViewPager.setAdapter(viewPagerAdapter)
 
 **Preview** :
 
-| <img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example1.jpg"/>| <img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example2.jpg"/> |<img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example3.jpg"/> |
-|:---|:---|:---|
-|Type 4|Type 3|Type 2|
+| <img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example5.jpg"/>| <img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example3.jpg"/>| <img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example2.jpg"/> |<img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example1.jpg"/> |
+|:---|:---|:---|:---|
+|Type 1|Type 2|Type 3|Type 4|
 
 #
 #### ViewPager Dots
@@ -200,9 +196,9 @@ simpleViewPager.setAdapter(viewPagerAdapter)
 
 **Preview** :
 
-| <img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example1.jpg"/>|
+| <img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example4.jpg" width="400"/>|
 |:---|
-|Type 1|
+|Dots Example|
 
 ---
 
