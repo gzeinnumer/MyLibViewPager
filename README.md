@@ -1,10 +1,13 @@
 <h1 align="center">
-<img src="https://github.com/gzeinnumer/MyLibDynamicRadioButton/blob/master/preview/example1.jpg" width="300"/> <img src="https://github.com/gzeinnumer/MyLibDynamicRadioButton/blob/master/preview/example3.jpg" width="300"/>
+<img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example1.jpg" width="300"/> <img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example3.jpg" width="300"/>
 
 </h1>
 
+| <img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example1.jpg"/>| <img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example2.jpg"/> |<img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example3.jpg"/> |<img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example4.jpg"/> |
+|:---|:---|:---|:---|
+
 <h1 align="center">
-  MyLibDynamicRadioButton - Easy RadioButton Dynamic
+  MyLibViewPager - Easy RadioButton Dynamic
 </h1>
 
 <div align="center">
@@ -67,7 +70,7 @@ dependencies {
 #
 - **MainActivity.java**.
 Type Data
-**Type 1** just Fragment.
+**Type 1** just Fragment. if you use this, `tabs` will be `gone`.
 ```java
 viewPagerAdapter.addFragment(FirstFragment.instance());
 viewPagerAdapter.addFragment(FirstFragment.instance());
@@ -87,7 +90,7 @@ viewPagerAdapter.addFragment(FirstFragment.instance(), R.drawable.icon);
 viewPagerAdapter.addFragment(FirstFragment.instance(),"First", R.drawable.icon);
 viewPagerAdapter.addFragment(FirstFragment.instance(),"Second", R.drawable.icon);
 ```
-`Use on activity`
+Use on activity
 ```java
 TabLayout tabLayout = findViewById(R.id.tab_layout);
 SimpleViewPager simpleViewPager = findViewById(R.id.dc);
@@ -107,9 +110,9 @@ simpleViewPager.setAdapter(viewPagerAdapter)
 
 **Preview** :
 
-| <img src="https://github.com/gzeinnumer/MyLibDynamicRadioButton/blob/master/preview/example1.jpg"/>| <img src="https://github.com/gzeinnumer/MyLibDynamicRadioButton/blob/master/preview/example3.jpg"/> |
-|:---|:---|
-| Preview `Single Object`| Preview `Model Pojo`|
+| <img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example1.jpg"/>| <img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example2.jpg"/> |<img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example3.jpg"/> |
+|:---|:---|:---|
+|Type 4|Type 3|Type 2|
 
 #
 #### ViewPager Dots
@@ -134,6 +137,7 @@ simpleViewPager.setAdapter(viewPagerAdapter)
     app:tabTextColor="@android:color/white" />
 ```
 you need to make 3 file in your `res->drawable`. You can customize it.
+
 `tab_selector.xml`
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -196,9 +200,9 @@ simpleViewPager.setAdapter(viewPagerAdapter)
 
 **Preview** :
 
-| <img src="https://github.com/gzeinnumer/MyLibDynamicRadioButton/blob/master/preview/example1.jpg"/>| <img src="https://github.com/gzeinnumer/MyLibDynamicRadioButton/blob/master/preview/example3.jpg"/> |
-|:---|:---|
-| Preview `Single Object`| Preview `Model Pojo`|
+| <img src="https://github.com/gzeinnumer/MyLibViewPager/blob/master/preview/example1.jpg"/>|
+|:---|
+|Type 1|
 
 ---
 

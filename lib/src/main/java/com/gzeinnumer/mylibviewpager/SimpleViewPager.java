@@ -51,6 +51,9 @@ public class SimpleViewPager extends LinearLayout {
         viewPager.setSwipeable(enableSwipe);
         viewPager.setAdapter(viewPagerAdapter);
         if (tabLayout!=null){
+            if (viewPagerAdapter.getTitles().size()==0){
+                tabLayout.setVisibility(GONE);
+            }
             tabLayout.setupWithViewPager(viewPager);
 
             if (viewPagerAdapter.getFragments().size()>0){
