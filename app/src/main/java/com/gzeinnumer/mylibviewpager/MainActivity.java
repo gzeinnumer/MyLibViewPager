@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         viewPagerAdapter.addFragment(FirstFragment.instance());
 
 //        viewPagerAdapter.addFragment(FirstFragment.instance(),"First");
-//        viewPagerAdapter.addFragment(FirstFragment.instance(), "Second");
+//        viewPagerAdapter.addFragment(FirstFragment.instance(),"Second");
 
 //        viewPagerAdapter.addFragment(FirstFragment.instance(), R.drawable.icon);
 //        viewPagerAdapter.addFragment(FirstFragment.instance(), R.drawable.icon);
@@ -42,10 +42,12 @@ public class MainActivity extends AppCompatActivity {
 //        viewPagerAdapter.addFragment(FirstFragment.instance(),"Second", R.drawable.icon);
 
         simpleViewPager.setAdapter(viewPagerAdapter)
-                .setTabLayout(tabLayout)
-//                .setDotsTab(dotsTab, true)
+//                .setTabLayout(tabLayout)
+                .setDotsTab(dotsTab, true)
 //                .enableSwipe(false)
                 .build();
+
+//        simpleViewPager.setSelectedPosition(1);
 
 //        dotsTab.getTabAt( 1).select();
 

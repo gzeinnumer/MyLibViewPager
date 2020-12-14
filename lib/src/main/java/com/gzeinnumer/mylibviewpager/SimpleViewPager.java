@@ -47,7 +47,6 @@ public class SimpleViewPager extends LinearLayout {
     }
 
     public void build(){
-
         viewPager.setSwipeable(enableSwipe);
         viewPager.setAdapter(viewPagerAdapter);
         if (tabLayout!=null){
@@ -95,5 +94,9 @@ public class SimpleViewPager extends LinearLayout {
         this.dotsTab = dotsTab;
         this.enableClickDot = enableClickDot;
         return this;
+    }
+
+    public void setSelectedPosition(int position) {
+        viewPager.setCurrentItem(position);
     }
 }
