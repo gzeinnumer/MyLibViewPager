@@ -7,7 +7,7 @@
 </h1>
 
 <div align="center">
-    <a><img src="https://img.shields.io/badge/Version-1.0.0-brightgreen.svg?style=flat"></a>
+    <a><img src="https://img.shields.io/badge/Version-1.0.1-brightgreen.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/ID-gzeinnumer-blue.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/Java-Suport-green?logo=java&style=flat"></a>
     <a><img src="https://img.shields.io/badge/Koltin-Suport-green?logo=kotlin&style=flat"></a>
@@ -37,8 +37,8 @@ dependencies {
 ```
 
 ## Feature List
-- [x] [ViewPager Tabs](#ViewPagerTabs)
-- [x] [ViewPager Dots](#ViewPagerDots)
+- [x] [ViewPager Tabs](#viewpager-tabs)
+- [x] [ViewPager Dots](#viewpager-dots)
 
 ---
 ## USE
@@ -103,6 +103,12 @@ simpleViewPager.setAdapter(viewPagerAdapter)
     //.enableSwipe(false) // true/false -> use this if you want to disable swipe left and right to change page
     .build();
 ```
+
+Move to Spesific page
+```java
+simpleViewPager.setSelectedPosition(1);
+```
+
 #
 
 **Preview** :
@@ -196,6 +202,8 @@ simpleViewPager.setAdapter(viewPagerAdapter)
 
 Move to Spesific page
 ```java
+simpleViewPager.setSelectedPosition(1);
+//or
 dotsTab.getTabAt(0).select(); // index page start from 0...FragmentLength - 1
 ```
 
@@ -216,6 +224,8 @@ dotsTab.getTabAt(0).select(); // index page start from 0...FragmentLength - 1
 ### Version
 - **1.0.0**
   - First Release
+- **1.0.1**
+  - Add `simpleViewPager.setSelectedPosition(1);`
 
 ---
 
