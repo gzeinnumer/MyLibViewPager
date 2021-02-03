@@ -17,8 +17,16 @@
 </div>
 
 ---
+# Content List
+* [Download](#download)
+* [Feature List](#feature-list)
+* [Usage](#usage)
+* [Example Code/App](#example-codeapp)
+* [Version](#version)
+* [Contribution](#contribution)
 
-## Download
+---
+# Download
 Add maven `jitpack.io` and `dependencies` in `build.gradle (Project)` :
 ```gradle
 // build.gradle project
@@ -36,13 +44,14 @@ dependencies {
 }
 ```
 
-## Feature List
+---
+# Feature List
 - [x] [ViewPager Tabs](#viewpager-tabs)
 - [x] [ViewPager Dots](#viewpager-dots)
 
 ---
-## USE
-#### ViewPager Tabs
+# Usage
+### ViewPager Tabs
 
 - Widget on `xml`
 ```xml
@@ -118,7 +127,7 @@ simpleViewPager.setSelectedPosition(1);
 |Type 1|Type 2|Type 3|Type 4|
 
 #
-#### ViewPager Dots
+### ViewPager Dots
 
 - Widget on `xml`
 ```xml
@@ -184,7 +193,7 @@ you need to make 3 file in your `res->drawable`. You can customize it.
 ```
 
 #
-- **MainActivity.java**.
+- **MainActivity.java**
 ```java
 SimpleViewPager simpleViewPager = findViewById(R.id.dc);
 TabLayout dotsTab = findViewById(R.id.dots_tab);
@@ -216,20 +225,21 @@ dotsTab.getTabAt(0).select(); // index page start from 0...FragmentLength - 1
 |Dots Example|
 
 ---
+# Example Code/App
 
 **FullCode [MainActivity](https://github.com/gzeinnumer/MyLibViewPager/blob/master/app/src/main/java/com/gzeinnumer/mylibviewpager/MainActivity.java) & [FirstFragment](https://github.com/gzeinnumer/MyLibViewPager/blob/master/app/src/main/java/com/gzeinnumer/mylibviewpager/FirstFragment.java) & [XML](https://github.com/gzeinnumer/MyLibViewPager/blob/master/app/src/main/res/layout/activity_main.xml)**
 
----
+[Sample Code And App](https://github.com/gzeinnumer/Example)
 
-### Version
+---
+# Version
 - **1.0.0**
   - First Release
 - **1.0.1**
   - Add `simpleViewPager.setSelectedPosition(1);`
 
 ---
-
-### Contribution
+# Contribution
 You can sent your constibution to `branche` `open-pull`.
 
 ---
