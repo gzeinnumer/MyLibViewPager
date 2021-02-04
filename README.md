@@ -229,7 +229,7 @@ dotsTab.getTabAt(0).select(); // index page start from 0...FragmentLength - 1
 
 **FullCode [MainActivity](https://github.com/gzeinnumer/MyLibViewPager/blob/master/app/src/main/java/com/gzeinnumer/mylibviewpager/MainActivity.java) & [FirstFragment](https://github.com/gzeinnumer/MyLibViewPager/blob/master/app/src/main/java/com/gzeinnumer/mylibviewpager/FirstFragment.java) & [XML](https://github.com/gzeinnumer/MyLibViewPager/blob/master/app/src/main/res/layout/activity_main.xml)**
 
-[Sample Code And App](https://github.com/gzeinnumer/Example)
+[Sample Code And App](https://github.com/gzeinnumer/MyLibViewPagerExample)
 
 ---
 # Version
